@@ -1,7 +1,6 @@
-# You need to fill out this configuration file
 defaults:
+  - cifar10_classification_task_schema
   - model: cifar10_model
   - optimizer: sgd
   - loss_function: cross_entropy
 
-_target_: tasks.CIFAR10Classification

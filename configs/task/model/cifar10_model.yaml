@@ -1,7 +1,5 @@
-# You need to fill out this configuration file
 defaults:
-  - backbone: resnet18
+  - cifar10_model_schema
+  - backbone: resnet18_schema
   - adapter: linear_512_10
   - head: identity_head
-
-_target_: models.CIFAR10Model
