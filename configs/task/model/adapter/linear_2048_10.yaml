@@ -1,4 +1,5 @@
-# You need to fill out this configuration file
-_target_: adapters.LinearAdapter
+defaults:
+  - linear_adapter_schema
+  
 in_features: 2048
 out_features: 10

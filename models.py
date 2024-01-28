@@ -22,9 +22,6 @@ class SimpleModel(nn.Module):
 
 
 class CIFAR10Model(nn.Module):
-    """
-    Hint: It is going to be very similar to SimpleModel
-    """
     def __init__(
         self, 
         backbone: nn.Module, 
